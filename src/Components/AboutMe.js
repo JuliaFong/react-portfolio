@@ -7,7 +7,7 @@ export default class AboutMe extends Component {
         return (
             <section id="aboutme">
                 <div className="row">
-                    
+                    <h1>About Me</h1>
                 </div>
             </section>
         )
