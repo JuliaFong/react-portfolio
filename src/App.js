@@ -1,13 +1,18 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
+import AboutMe from './Components/AboutMe'
+import ContactMe from './Components/ContactMe'
+import Footer from './Components/Footer'
+import Header from './Components/Header'
+import Project from './Components/Projects'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Hello world
         </p>
         <a
           className="App-link"
