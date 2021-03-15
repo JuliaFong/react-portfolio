@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
-export default class Project extends Component {
+export class Home extends Component {
     render() {
         let projectPg = this.props.projectPg
-        return (
+        return(
             <div>
-                <h1>Project page</h1>
+                <h1>Home page</h1>
             </div>
         )
     }
